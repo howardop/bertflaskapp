@@ -7,7 +7,7 @@ class Config(object):
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'hlostorageaccount'
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'ENTER_BLOB_STORAGE_KEY'
-    BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
+    BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images2'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'hlodbserver.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'hlodb'
