@@ -13,6 +13,8 @@ from FlaskWebProject.models import User, Post
 import msal
 import uuid
 
+#app.config['SERVER_NAME'] = "localhost:5000"
+
 imageSourceUrl = 'https://'+ app.config['BLOB_ACCOUNT']  + '.blob.core.windows.net/' + app.config['BLOB_CONTAINER']  + '/'
 
 @app.route('/')
