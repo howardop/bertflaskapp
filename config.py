@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'hlostorageaccount'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'NRk/C1TDkCdvk/bRprhQQOFF/18ozSz8S9SX9S9IWDyLmsMAhofnMnEdpDCl7Oae8L+8IpmPFotcgmiuhsxirg=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'bR5Az0ahIsaS+dbW4JCPvB/YbIWIa8Ww07Ko9cBIlVOnyNxjt6gZJzjcPh4JLzBxCXnDkiqAjiNawjnzuQt7Dw=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'hlodbserver.database.windows.net'
