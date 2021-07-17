@@ -9,9 +9,7 @@ if __name__ == '__main__':
     HOST = environ.get('SERVER_HOST', 'localhost')
     #HOST='https://hlobike.azurewebsites.net'
     try:
-        #PORT = int(environ.get('SERVER_PORT', '5000'))
-        PORT=5000
+        PORT = int(environ.get('SERVER_PORT', '5000'))
     except ValueError:
         PORT = 80
     app.run(HOST, PORT, ssl_context='adhoc')
-    #app.run(HOST,PORT)
