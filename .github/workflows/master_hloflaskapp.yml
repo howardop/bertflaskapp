@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'hloflaskapp'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_d008778159a3429ab56702dc458535e7 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_ef28648fb9224af38a8e948f3f9a5768 }}
